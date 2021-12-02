@@ -18,7 +18,7 @@ let menuItems = [
   const menuItem = document.createElement('ul');
 
   menu.classList.add('menu');
-
+  menu.classList.add('slide')
   menu.appendChild(menuItem);
 
   array.forEach(item =>{  
