@@ -28,3 +28,16 @@
 .menu--open {
   display: block;
 }
+
+@keyframes slideIn {
+  0% {
+    transform: translateX(-400px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+
+.slide{
+  animation: slideIn .1s ease-in-out forwards;
+}
